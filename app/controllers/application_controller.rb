@@ -4,6 +4,8 @@ class ApplicationController < ActionController::Base
   # class. ApplicationController is some class that exists in the 
   # package from Rails framework
   def hello
-    render html: "hola, mundo!"
+    render inline: '<h1>Hello, World!</h1> 
+    <h2>¡Hola, mundo!</h2>
+    <em>Greetings by Yi</em>'
   end
 end
