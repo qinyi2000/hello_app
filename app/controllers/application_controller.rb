@@ -6,10 +6,10 @@ class ApplicationController < ActionController::Base
   
   # This is direct rendering, without a view. We are just
   # returning raw html text to the browser
-  def hello
-    render inline: '<h1>Hello, World!</h1> 
-    <h2>¡Hola, mundo!</h2>'
-  end
+  # def hello
+  #   render inline: '<h1>Hello, World!</h1> 
+  #   <h2>¡Hola, mundo!</h2>'
+  # end
   
   def goodbye
     render inline: '<h1>Goodbye</h1> 
